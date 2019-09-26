@@ -1,3 +1,42 @@
-.web-background {
-    background-color: #0811bf;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.left-panel {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 300px;
+    height: calc(100vh - 160px);
+    margin: 10px;
+    background-color: darkgray;
+}
+
+.right-panel {
+    position: absolute;
+    left: 330px;
+    top: 60px;
+    width: calc(100vw - 347px);
+    height: calc(100vh - 160px);
+    margin: 10px;
+    background-color: darkgray;
 }
