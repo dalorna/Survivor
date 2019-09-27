@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Survivor from '../components/Survivor';
+import MainPanel from './MainPanel';
 import './Web.css';
 
 class Web extends Component {
@@ -18,7 +18,7 @@ class Web extends Component {
           <span>left side navigation</span>
         </div>
         <div className="right-panel">
-          <Survivor />
+          <MainPanel></MainPanel>
         </div>
       </div>
     );

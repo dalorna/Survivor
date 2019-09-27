@@ -3,9 +3,17 @@ import './Survivor.css'
 
 
 class Survivor extends Component {
+  doWork = (e) => {
+    alert('hello World')
+  };
   render() {
-    return (<div className="survivor-background" >Survivor Dashboard</div>);
-  }
+    return (
+      <div className="survivor-background">
+        <span>Survivor Dashboard</span>
+        <button onClick={(e) => this.doWork(e)}>Click Me</button>
+      </div>
+    );
+  };
 }
 
 export default Survivor;
